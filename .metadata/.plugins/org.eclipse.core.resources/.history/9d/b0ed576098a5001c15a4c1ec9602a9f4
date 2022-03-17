@@ -1,0 +1,16 @@
+package lab3.bai3;
+
+import java.util.Date;
+
+public class Student {
+	private String mssv;
+	private String hoten;
+	private Date ngaysinh;
+	private int slhp;
+	private String[] tenhp;
+	private String[] diemhp;
+	
+	public Student() {
+		
+	}
+}

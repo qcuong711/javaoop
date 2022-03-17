@@ -1,0 +1,36 @@
+package lab3.bai1;
+
+public class Gach {
+	private String maso;
+	private String mau;
+	private int soluongmh;
+	private int chieudai;
+	private int chieungang;
+	private long giabanmh;
+	
+	public String getMaso() {
+		return maso;
+	}
+	
+	public String getMau() {
+		return mau;
+	}
+	
+	public int getSoluongmh() {
+		return soluongmh;
+	}
+	
+	public int getChieudai() {
+		return chieudai;
+	}
+	
+	public int getChieungang() {
+		return chieungang;
+	}
+	
+	public long getGiabanmh() {
+		return giabanmh;
+	}
+	
+	
+}

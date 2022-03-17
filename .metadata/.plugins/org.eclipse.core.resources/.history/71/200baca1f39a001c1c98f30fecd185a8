@@ -1,0 +1,17 @@
+package lab3.bai1;
+
+import java.util.Scanner;
+
+public class SDGach {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Nhap so loai gach: ");
+		int n = sc.nextInt();
+		Gach[] dsGach = new Gach[n];
+		
+		for(int i = 0; i < n; i++) {
+			System.out.println("Nhap loai gach thu " i+1);
+			
+		}
+	}
+}
