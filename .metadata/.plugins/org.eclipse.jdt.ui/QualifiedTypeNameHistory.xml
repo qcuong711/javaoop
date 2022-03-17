@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="lab2.bai1.Diem"/>
+    <fullyQualifiedTypeName name="lab3.bai2.SDDoanThang"/>
 </qualifiedTypeNameHistroy>

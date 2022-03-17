@@ -1,0 +1,23 @@
+package lab3.bai2;
+
+import lab2.bai1.Diem;
+
+public class DoanThang {
+	private Diem d1;
+	private Diem d2;
+	
+	public DoanThang() {
+		this.d1 = new Diem(0, 0);
+		this.d2 = new Diem(1, 1);
+	}
+	
+	public DoanThang(Diem d1, Diem d2) {
+		this.d1 = d1;
+		this.d2 = d2;
+	}
+	
+	public DoanThang(int ax, int ay, int bx, int by) {
+		this.d1 = new Diem(ax, ay);
+		this.d2 = new Diem(bx, by);
+	}
+}

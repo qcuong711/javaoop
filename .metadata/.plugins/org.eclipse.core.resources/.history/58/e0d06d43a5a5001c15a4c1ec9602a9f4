@@ -1,0 +1,61 @@
+package lab3.bai2;
+
+import java.util.Scanner;
+
+import lab2.bai1.Diem;
+
+public class DoanThang {
+	private Diem d1;
+	private Diem d2;
+	
+	public DoanThang() {
+		this.d1 = new Diem(0, 0);
+		this.d2 = new Diem(1, 1);
+	}
+	
+	public DoanThang(Diem d1, Diem d2) {
+		this.d1 = d1;
+		this.d2 = d2;
+	}
+	
+	public DoanThang(int ax, int ay, int bx, int by) {
+		this.d1 = new Diem(ax, ay);
+		this.d2 = new Diem(bx, by);
+	}
+	
+	public void nhap() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Nhap toa do diem A");
+		System.out.println("xA :");
+		int ax = sc.nextInt();
+		System.out.println("yA :");
+		int ay = sc.nextInt();
+		System.out.println("xB :");
+		int bx = sc.nextInt();
+		System.out.println("yB :");
+		int by = sc.nextInt();
+		this.d1 = new Diem(ax, ay);
+		this.d2 = new Diem(bx, by);
+	}
+	
+	public String toString() {
+		return "Toa do diem A(" + d1.getX() + ", " + d1.getY() + ")" + ", Toa do diem B("
+				+ d2.getX() + ", " + d2.getY() + ")";
+	}
+	
+	public DoanThang tinhTien(int dx, int dy) {
+		int d1x = d1.getX() + dx;
+		int d1y = d1.getY() + dy;
+		int d2x = d2.getX() + dx;
+		int d2y = d2.getY() + dy;
+		
+		DoanThang dtTinhTien = new DoanThang(d1x, d1y, d2x, d2y);
+		return dtTinhTien;
+	}
+	
+	public double doDaiDT() {
+		double doDai = Math.sqrt(Math.pow(d2.getX() - d1.getX(), 2) 
+				+ Math.pow(d2.getY() - d1.getY(), 2));
+		return doDai;
+	}
+}
