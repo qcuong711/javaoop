@@ -13,7 +13,7 @@ public class HoaDon {
 	private MyDate ngayXuat;
 	
 	public HoaDon() {
-		danhSachHangHoa = new ArrayList<ChiTiet>();
+		
 	}
 
 	public HoaDon(String mso, String tde, String nvien, KhachHang khachHang, 
@@ -22,7 +22,7 @@ public class HoaDon {
 		this.tde = tde;
 		this.nvien = nvien;
 		this.khachHang = khachHang;
-		danhSachHangHoa = new ArrayList<ChiTiet>();
+		this.chiTiet = chiTiet;
 		this.ngayXuat = ngayXuat;
 	}
 	
@@ -36,18 +36,7 @@ public class HoaDon {
 		nvien = sc.next();
 		khachHang.nhap();
 		
-		System.out.print("Nhap so luong san pham: ");
-		int x = sc.nextInt();
-		for(int i = 0; i < x; i++) {
-			ChiTiet chiTiet = new ChiTiet();
-			chiTiet.nhap();
-			danhSachHangHoa.add(chiTiet);
-		}
-		
-		ngayXuat.nhapNgay();
 	}
 	
-	public void in() {
-		
-	}
+	
 }

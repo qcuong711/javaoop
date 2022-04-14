@@ -1,0 +1,12 @@
+package lab5;
+
+public class HoaDon {
+
+	private String mso;
+	private String tde;
+	private String nvien;
+	
+	public HoaDon() {
+		
+	}
+}

@@ -1,0 +1,17 @@
+package lab5;
+
+import java.util.ArrayList;
+
+public class HoaDon {
+
+	private String mso;
+	private String tde;
+	private String nvien;
+	private ArrayList<ChiTiet> chiTiet;
+	
+	private MyDate ngayXuat;
+	
+	public HoaDon() {
+		
+	}
+}

@@ -36,18 +36,7 @@ public class HoaDon {
 		nvien = sc.next();
 		khachHang.nhap();
 		
-		System.out.print("Nhap so luong san pham: ");
-		int x = sc.nextInt();
-		for(int i = 0; i < x; i++) {
-			ChiTiet chiTiet = new ChiTiet();
-			chiTiet.nhap();
-			danhSachHangHoa.add(chiTiet);
-		}
-		
-		ngayXuat.nhapNgay();
 	}
 	
-	public void in() {
-		
-	}
+	
 }
