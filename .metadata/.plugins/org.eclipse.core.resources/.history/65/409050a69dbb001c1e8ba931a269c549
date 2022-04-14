@@ -1,0 +1,10 @@
+package lab5;
+
+public class KhachHangVip extends KhachHang {
+
+	private float tleGiam;
+	
+	public KhachHangVip() {
+		super();
+	}
+}

@@ -1,0 +1,9 @@
+package lab4;
+
+public class Bo extends ConVat{
+	
+	@Override
+	public void Keu() {
+		System.out.println("Um Bo...!");
+	}
+}

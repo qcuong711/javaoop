@@ -1,0 +1,20 @@
+package lab5;
+
+public class KhachHang {
+	
+	public String cccd;
+	public String hten;
+	public String dchi;
+	
+	public KhachHang() {
+		
+	}
+	
+	public KhachHang(String cccd, String hten, String dchi) {
+		this.cccd = cccd;
+		this.hten = hten;
+		this.dchi = dchi;
+	}
+	
+	
+}

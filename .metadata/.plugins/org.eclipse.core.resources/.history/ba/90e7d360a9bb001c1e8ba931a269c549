@@ -1,0 +1,9 @@
+package lab5;
+
+public class ChiTiet {
+
+	private int sluong;
+	private float dgia;
+	
+	
+}

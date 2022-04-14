@@ -1,0 +1,13 @@
+package lab4;
+
+public class Heo extends ConVat {
+	
+	public Heo() {
+		super();
+	}
+	
+	@Override
+	public void Keu() {
+		System.out.println("Ec Ec...!");
+	}
+}

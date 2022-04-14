@@ -1,0 +1,23 @@
+package lab5;
+
+public class ChiTiet {
+
+	private int sluong;
+	private float dgia;
+	private HangHoa loaiHang;
+	
+	public ChiTiet() {
+		
+	}
+	
+	public ChiTiet(int sluong, int dgia, HangHoa loaiHang) {
+		this.sluong = sluong;
+		this.dgia = dgia;
+		this.loaiHang = loaiHang;
+	}
+	
+	public void nhap() {
+		System.out.println("Nhap thong tin chi tiet:");
+		System.out.print("Nhap loai hang hoa:");
+	}
+}

@@ -1,0 +1,17 @@
+package lab5;
+
+public class ChiTiet {
+
+	private int sluong;
+	private float dgia;
+	private HangHoa loaiHang;
+	
+	public ChiTiet() {
+		
+	}
+	
+	public ChiTiet(int sluong, int dgia, HangHoa loaiHang) {
+		
+	}
+	
+}

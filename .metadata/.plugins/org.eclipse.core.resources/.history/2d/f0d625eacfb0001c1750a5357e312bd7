@@ -1,0 +1,40 @@
+package lab4;
+
+import java.util.Scanner;
+
+import lab2.Date;
+import lab3.SinhVien;
+
+public class SinhVienCNTT extends SinhVien{
+	private String taiKhoan;
+	private String matKhau;
+	private String email;
+	
+	public SinhVienCNTT() {
+		super();
+		taiKhoan = "chua xac dinh";
+		matKhau = "chua xac dinh";
+		email = "chua xac dinh";
+	}
+	
+	public SinhVienCNTT(String mssv, String ten, Date ngaySinh, int soMonHoc,
+			 String taiKhoan, String matKhau, String email) {
+		super(mssv, ten, ngaySinh, soMonHoc);
+		this.taiKhoan = taiKhoan;
+		this.matKhau = matKhau;
+		this.email = email;
+	}
+	
+	@Override
+	public void nhapTT() {
+		Scanner sc = new Scanner(System.in);
+		super.nhapTT();
+		System.out.print("Nhap tai khoan:");
+		taiKhoan = sc.next();
+		System.out.print("Nhap mat khau:");
+		taiKhoan = sc.next();
+		System.out.print("Nhap email:");
+		taiKhoan = sc.next();
+	}
+	
+}

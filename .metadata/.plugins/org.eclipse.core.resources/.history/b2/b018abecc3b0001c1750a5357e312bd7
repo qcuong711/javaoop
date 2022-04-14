@@ -1,0 +1,19 @@
+package lab4;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class SDConVat {
+	public static void main(String[] args) {
+		List<ConVat> allConVat = new ArrayList<ConVat>();
+		
+		System.out.println("Moi nhap so luong con vat muon nhap:");
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		for(int i = 0; i < n; i++) {
+			
+		}
+	}
+}

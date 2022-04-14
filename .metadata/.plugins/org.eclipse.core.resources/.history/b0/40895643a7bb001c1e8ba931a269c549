@@ -1,0 +1,39 @@
+package lab5;
+
+import java.util.Scanner;
+
+public class KhachHangVip extends KhachHang {
+
+	private float tLeGiam;
+	
+	public KhachHangVip() {
+		super();
+	}
+	
+	public KhachHangVip(String cccd, String hten, String dchi, float tLeGiam) {
+		super(cccd, hten, dchi);
+		this.tLeGiam = tLeGiam;
+	}
+
+	public float gettLeGiam() {
+		return tLeGiam;
+	}
+
+	public void settLeGiam(float tLeGiam) {
+		this.tLeGiam = tLeGiam;
+	}
+	
+	@Override
+	public void nhap() {
+		Scanner sc = new Scanner(System.in);
+		super.nhap();
+		System.out.print("Nhap ty le giam: ");
+		tLeGiam = sc.nextFloat();
+	}
+	
+	@Override
+	public void in() {
+		super.in();
+		
+	}
+}

@@ -1,0 +1,18 @@
+package lab4;
+
+public class Bo extends ConVat{
+	
+	public Bo() {
+		super();
+	}
+	
+	@Override
+	public void Keu() {
+		System.out.println("Um Bo...!");
+	}
+	
+	@Override
+	public void nhap() {
+		super.nhap();
+	}
+}

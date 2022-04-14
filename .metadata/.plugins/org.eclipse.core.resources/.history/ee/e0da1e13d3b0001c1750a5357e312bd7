@@ -1,0 +1,16 @@
+package lab4;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class SDSVCNTT {
+	public static void main(String[] args) {
+		List<SinhVienCNTT> allSVCNTT = new ArrayList<>();
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Nhap so luong SVNCTT:");
+		int a = sc.nextInt();
+	}
+}

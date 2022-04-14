@@ -1,0 +1,41 @@
+package lab4;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class SDConVat {
+	public static void main(String[] args) {
+		List<ConVat> allConVat = new ArrayList<ConVat>();
+		
+		System.out.println("Moi nhap so luong con vat muon nhap:");
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		for(int i = 1; i <= n; i++) {
+			System.out.println("Con vat thu " + i +",Moi nhap 1 trong 3 loai: bo, heo, de");
+			String loaiConVat = sc.nextLine();
+			if(loaiConVat.equals("Bo") || loaiConVat.equals("bo")) {
+				ConVat conbo = new Bo();
+				conbo.nhap();
+				allConVat.add(conbo);
+			}
+			if(loaiConVat.equals("Heo") || loaiConVat.equals("heo")) {
+				ConVat conheo = new Heo();
+				conheo.nhap();
+				allConVat.add(conheo);
+			}
+			if(loaiConVat.equals("De") || loaiConVat.equals("De")) {
+				ConVat conde = new De();
+				conde.nhap();
+				allConVat.add(conde);
+			}
+		}
+		
+		//for-each
+		for(ConVat cv : allConVat) {
+			cv.in();
+			cv.Keu();
+		}
+	}
+}

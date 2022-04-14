@@ -1,0 +1,6 @@
+package lab4.bai1;
+
+public class DiemMau {
+	private String mau;
+	
+}

@@ -1,0 +1,11 @@
+package lab4;
+
+import lab3.SinhVien;
+
+public class SinhVienCNTT extends SinhVien{
+	private String taiKhoan;
+	private String matKhau;
+	private String email;
+	
+	
+}

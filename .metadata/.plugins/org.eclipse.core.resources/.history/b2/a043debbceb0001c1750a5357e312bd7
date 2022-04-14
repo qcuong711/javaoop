@@ -1,0 +1,18 @@
+package lab4;
+
+import lab3.SinhVien;
+
+public class SinhVienCNTT extends SinhVien{
+	private String taiKhoan;
+	private String matKhau;
+	private String email;
+	
+	public SinhVienCNTT() {
+		super();
+		taiKhoan = "chua xac dinh";
+		matKhau = "chua xac dinh";
+		email = "chua xac dinh";
+	}
+	
+	
+}

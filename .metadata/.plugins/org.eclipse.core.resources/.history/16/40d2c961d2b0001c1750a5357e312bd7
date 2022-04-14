@@ -1,0 +1,9 @@
+package lab4;
+
+import java.util.ArrayList;
+
+public class SDSVCNTT {
+	public static void main(String[] args) {
+		ArrayList<SinhVienCNTT> allSVCNTT = new ArrayList<>();
+	}
+}

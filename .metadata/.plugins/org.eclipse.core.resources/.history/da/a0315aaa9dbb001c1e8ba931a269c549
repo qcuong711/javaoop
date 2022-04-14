@@ -1,0 +1,15 @@
+package lab5;
+
+public class KhachHangVip extends KhachHang {
+
+	private float tleGiam;
+	
+	public KhachHangVip() {
+		super();
+	}
+	
+	public KhachHangVip(String cccd, String hten, String dchi, float tLeGiam) {
+		super(cccd, hten, dchi);
+		this.tLeGiam = tLeGIam;
+	}
+}

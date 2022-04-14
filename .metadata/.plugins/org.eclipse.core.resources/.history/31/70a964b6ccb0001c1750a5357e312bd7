@@ -1,0 +1,17 @@
+package lab4;
+
+public class SDDiemMau {
+	public static void main(String[] args) {
+		DiemMau A = new DiemMau(5, 10, "trang");
+		System.out.print("Toa do diem A: ");
+		A.in();
+		
+		DiemMau B = new DiemMau();
+		B.doiDiem(10, 8);
+		System.out.print("Thong tin diem B sau khi doi: ");
+		B.in();
+		B.GanMau("xanh");
+		System.out.print("Thong tin diem B sau khi doi mau: ");
+		B.in();
+	}
+}
